@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    tools:context="com.example.student.pazig12.MainActivity">
+
+
+    <EditText
+        android:id="@+id/et_Imie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:hint="Imię" />
+    <EditText
+        android:id="@+id/et_Nazwisko"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:hint="Nazwisko" />
+    <EditText
+        android:id="@+id/et_Wiek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Wiek"/>
+    <EditText
+        android:id="@+id/et_Wzrost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:hint="Wzrost"
+        android:ems="10"
+        android:inputType="number"/>
+    <EditText
+        android:id="@+id/et_Ocena_Stopien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:hint="Ocena/Stopień Naukowy"
+        />
+    <RadioButton
+    android:id="@+id/checkbox_Naucz"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Nauczyciel" />
+
+    <RadioButton
+        android:id="@+id/checkbox_Ucz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Uczeń" />
+
+
+
+
+    <Button
+        android:id="@+id/b_Wys"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <TextView
+        android:id="@+id/et_wys"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nazywam się.. Mam lat oraz ...cm wzrostu... Jestem ..Posiadam...." />
+
+
+
+</android.widget.LinearLayout>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Pazig12</string>
+    <string name="formatka">Nazywam się %1$s %2$s. Mam %3$d lat oraz %4$d wzrostu. Jestem %5$s. Posiadam %6$s.</string>
+</resources>
